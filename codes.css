@@ -1,21 +1,70 @@
 body{
-    margin:auto;
+    margin:0px;
+    width:1500px;
+    height: 100%;
 }
 #logo,#logo2{
-    width:min(12rem,6vw);
-    padding-left: 50px;
+    width:min(13rem,6.5vw);
+    padding-left: 40px;
+    
 }
-.navbar{
-    text-align:justify;
-    padding:20px;
+.navbar li{
+    display:inline;
     list-style-type:none;
+    margin-left:5px;
+    padding:35px;
+    font-family:'jost' , sans-serif;
+    letter-spacing:1px;
+    font-weight:600;
+    font-size: 15px;
+}
+#logo, li{
+    display:inline;
+    float:left;
 }
 input[type="submit"]{
     color:white;
     background-color: orange;
-    width: 80px;
+    width: 83px;
     height:50px;
     border-color: orange;
-    border-radius:3px;
-    margin:30px 100px;
+    border-radius:5px;
+    margin:28px 50px;
+    letter-spacing: 1px;
+}
+input[type="submit"]:hover{
+    background-color:brown;
+    cursor:pointer;
+}
+p2{
+    color:orange;
+    font-size: 15px;
+    font-family:'jost' , sans-serif;
+    letter-spacing: 4px;
+}
+.one img{
+    width:30%;
+    height:30%;
+    padding-top:1px;
+    padding-left: 1060px;
+}
+main .para1{
+    padding-top: 100px;
+}
+.para1{
+    padding-top: 500px;
+    width: 100px;
+    height: 100px;
+    display: grid;
+    box-sizing: border-box;
+    padding-left:2px;
+}
+p3{
+    color:black;
+    font-size:50px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+span{
+    display:block;
 }
